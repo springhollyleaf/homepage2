@@ -1,7 +1,28 @@
 img {
-    width: 150px;
-    height: 140px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 50px;
+}
+
+img:hover {
+    transform:scale(1.2);
+    transform:rotate( 5deg);
 }
 body{
-    
+    background-image: #C6FFDD;  /* fallback for old browsers */
+    background-image: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+p {
+    font-size: 40px;
+    font-family: 'Allura', cursive;
+}
+
+h1 {
+    font-family: 'Arima Madurai', cursive;
+    text-align: center;
+    font-size: 60px;
 }
