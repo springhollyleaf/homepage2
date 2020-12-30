@@ -1,13 +1,13 @@
 img {
-    width: 300px;
-    height: 300px;
-    border-radius: 10%;
-    margin: 50px;
+    width: 220px;
+    height: 200px;
+    border-radius: 20%;
+    margin: 20px;
 }
 
 img:hover {
-    transform:scale(1.2);
-    transform:rotate( 5deg);
+     transform:rotate( 5deg);
+     transform:scale(1.2);
 }
 body{
     background-image: #C6FFDD;  /* fallback for old browsers */
@@ -17,12 +17,12 @@ body{
 }
 
 p {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Allura', cursive;
 }
 
 h1 {
-    font-family: 'Arima Madurai', cursive;
+    font-family: 'Allura', cursive;
     text-align: center;
     font-size: 60px;
 }
